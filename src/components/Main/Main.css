@@ -180,7 +180,7 @@
     line-height: 1.8;
 }
 
-@media (max-width:600px){
+@media (max-width:900px){
     .main-bottom input{
         flex:none;
         width: 180px;
@@ -193,5 +193,43 @@
     }
     .search-box div{
         gap: 5px;
+    }
+    .main .greet{
+        margin: 10px 0px;
+        font-size: 56px;
+        color: #c4c7c5;
+        font-weight: 500;
+        padding: 20px;
+    }
+}
+
+@media (max-width:450px){
+    .main .greet{
+        margin: 0px 0px;
+        font-size: 35px;
+        color: #c4c7c5;
+        font-weight: 500;
+        padding: 20px;
+    }
+    .main .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap: 15px;
+        padding: 20px;
+    }
+    
+    .main .card{
+        height: 200px;
+        padding: 15px;
+        background-color: #f0f4f9;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:360px){
+    .small{
+        display: none;
     }
 }
