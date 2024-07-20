@@ -33,11 +33,11 @@ function Main() {
               <p>Briefly summarize this concept: urban planning</p>
               <img src={assets.bulb_icon} alt="" />
             </div>
-            <div className="card">
+            <div className="card small">
               <p>Brainstorm team bonding activities for our work retreat</p>
               <img src={assets.message_icon} alt="" />
             </div>
-            <div className="card">
+            <div className="card small">
               <p>Improve the readability of the following code</p>
               <img src={assets.code_icon} alt="" />
             </div>
